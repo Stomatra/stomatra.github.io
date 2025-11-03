@@ -1,0 +1,77 @@
+﻿html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to bottom, rgba(173, 216, 230, 0.5), rgba(221, 160, 221, 0.5));
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'vivo-sans', '游ゴシック体', 'Yu Gothic UI', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(255, 182, 193, 0.5);
+    border: 2px solid plum;
+    margin-inline: 20vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+a:link,a:visited {
+    color:plum;
+}
+
+a:hover, a:focus {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:active{
+    color:aqua;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    font-family: YouYuan;
+    font-size: 1.2em;
+    color: gray;
+    border-radius: 15px;
+    background-color: rgba(173, 216, 230, 0.5);
+    border: 2px solid plum;
+    margin-top: 40px;
+    margin-inline: 20vw;
+}
+
+    footer p {
+        text-align: center;
+    }
+
+ul {
+    padding: 20px;
+    margin-inline: 20vw;
+    border-radius: 15px;
+    background-color: rgba(173, 216, 230, 0.5);
+    border: 2px solid plum;
+}
+
+li {
+    line-height: 1.8;
+    text-align: center;
+    list-style-type: none;
+}
+
+p.aboutme {
+    text-align: center;
+    font-family: YouYuan;
+}

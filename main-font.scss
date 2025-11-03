@@ -1,0 +1,22 @@
+﻿// 字体
+html {
+    &.vsans {
+        --main-font-family: "vivosans", sans-serif;
+    }
+
+    &.hmos {
+        --main-font-family: "HarmonyOS_Regular", sans-serif;
+    }
+
+    p {
+        font-weight: 500; /* Medium */
+    }
+
+    .iconfont {
+        font-size: 1rem;
+    }
+
+    button {
+        font-family: var(--main-font-family);
+    }
+}
