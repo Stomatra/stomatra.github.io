@@ -1,0 +1,75 @@
+﻿html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to bottom, rgba(139, 0, 0, 1), rgba(75, 0, 130, 1));
+    background-attachment: fixed;
+    text-align: center;
+    color:lightcoral;
+}
+
+h1 {
+    font-family: 'vivo-sans', '游ゴシック体', 'Yu Gothic UI', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+.titlebox {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 182, 193, 0.5);
+    border: 2px solid plum;
+    margin-inline: 20vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.box {
+    padding: 20px;
+    margin-inline: 20vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    background-color: rgba(221, 160, 221, 0.5);
+    border: 2px solid plum;
+}
+
+    .box p, .box ul, .box ol {
+        list-style-type: none;
+        text-align:justify;
+        font-size:1.2rem;
+    }
+
+        .box p::before {
+            content: "　　";
+        }
+
+footer.box p{
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: plum;
+}
+
+a:hover, a:focus {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.titlebox:hover, .titlebox:focus, .box:hover, .box:focus {
+    background-color: darkred;
+    border-color: mediumvioletred;
+}
+
+.edittime {
+    font-size: 0.7rem;
+    color: gray;
+    text-align: end;
+    margin-top: 50px;
+}
+
+em.red {
+    color: red;
+    font-style:inherit;
+}
