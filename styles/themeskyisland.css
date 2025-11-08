@@ -93,12 +93,12 @@ a:hover, a:focus {
     font-family: YouYuan;
 }
 
-red {
+.red {
     color: red;
     font-style: inherit;
 }
 
-blue {
+.blue {
     color: blue;
     font-style: inherit;
 }
