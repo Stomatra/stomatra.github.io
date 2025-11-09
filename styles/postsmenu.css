@@ -38,6 +38,14 @@ h2 {
         list-style-type:none;
     }
 
+    .box p ul, .box p ol  {
+        list-style-type:inherit;
+    }
+
+        .box p.middle {
+            text-align: center;
+        }
+
 a:link, a:visited {
     color: plum;
 }

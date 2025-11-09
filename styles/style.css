@@ -1,16 +1,19 @@
 ﻿html {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(to bottom, rgba(173, 216, 230, 0.5), rgba(221, 160, 221, 0.5));
     background-attachment: fixed;
-    text-align:center;
-}
-
-header {
-    margin-bottom: 70px;
+    text-align: center;
 }
 
 h1 {
     font-family: 'vivo-sans', '游ゴシック体', 'Yu Gothic UI', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+.titlebox {
     padding: 20px;
     border-radius: 15px;
     background-color: rgba(255, 182, 193, 0.5);
@@ -20,18 +23,60 @@ h1 {
     margin-bottom: 50px;
 }
 
-h2 {
-    font-size: 1.7rem;
+.box {
+    padding: 20px;
+    margin-inline: 20vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    background-color: rgba(173, 216, 230, 0.5);
+    border: 2px solid plum;
 }
 
-p {
-    text-justify: inter-word;
-    margin: 20px;
-    line-height: 1.6;
+img.inline-flex {
+    display: inline-flex;
+    margin: 10px;
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
 }
 
-a:link,a:visited {
-    color:plum;
+img.block {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.box p, .box ul, .box ol {
+    list-style-type: none;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+    .box p + ul, .box p + ol {
+        list-style-type: inherit;
+    }
+
+.box p.middle,.box ul.middle, .box ol.middle {
+    text-align: center;
+}
+
+        .box p.middle::before {
+            content: "";
+        }
+
+    .box p::before {
+        content: "　　";
+    }
+
+footer.box p {
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: plum;
 }
 
 a:hover, a:focus {
@@ -39,41 +84,29 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
-a:active{
-    color:aqua;
+.titlebox:hover, .titlebox:focus, .box:hover, .box:focus {
+    background-color: lightyellow;
+    border-color: blueviolet;
+}
+
+.edittime {
+    font-size: 0.7rem;
+    color: gray;
+    text-align: end;
+    margin-top: 50px;
+    font-family: YouYuan;
+}
+
+.red {
+    color: red;
+    font-style: inherit;
+}
+
+.blue {
+    color: blue;
+    font-style: inherit;
 }
 
 footer {
-    padding: 5px;
-    font-family: YouYuan;
-    font-size: 1.2rem;
-    color: gray;
-    border-radius: 15px;
-    background-color: rgba(173, 216, 230, 0.5);
-    border: 2px solid plum;
-    margin-top: 40px;
-    margin-inline: 20vw;
-}
-
-ul {
-    padding: 20px;
-    margin-inline: 20vw;
-    border-radius: 15px;
-    background-color: rgba(173, 216, 230, 0.5);
-    border: 2px solid plum;
-}
-
-    ul:hover, ul:focus ,footer:hover,footer:focus,h1:hover,h1:focus{
-        background-color: lightyellow;
-        border-color: blueviolet;
-    }
-
-li {
-    line-height: 1.8;
-    list-style-type: none;
-    font-size: 1.2rem;
-}
-
-p.aboutme {
     font-family: YouYuan;
 }

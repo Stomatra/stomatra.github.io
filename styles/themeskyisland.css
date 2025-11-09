@@ -55,6 +55,10 @@ img.block {
         font-size: 1.2rem;
     }
 
+        .box p+ul, .box p+ol {
+            list-style-type: inherit;
+        }
+
         .box p.middle {
             text-align: center;
         }
