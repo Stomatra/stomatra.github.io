@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <title>Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="模板">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link href="../../styles/themeskyisland.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" href="../../icon/rin.ico" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <h1 class="titlebox">关于概率论中各种分布的一些笔记</h1>
+        <p>这是概率论与数理统计中一些分布的有关笔记，包含介绍，以及数学期望，方差什么的</p>
+        <a href="../notes.html">返回上一页</a>
+        <a href="../../index.html">返回主页</a>
+    </header>
+
+    <section class="box">
+        <h2>离散型随机变量</h2>
+        <h2>两点分布（或(0,1)分布）</h2>
+        <h3>定义</h3>
+        <p>
+            如果随机变量\(X\)只取\(0\)和\(1\)两个值，其概率分布为：
+            $$ P\{X=0\}=1-p,P\{X=1\}=p,0< p< 1, $$
+            或写成
+            $$ P\{X=k\}=p^k(1-p)^{1-k},k=0,1. $$
+            则称随机变量\(X\)服从参数为\(p\)的\((0,1)\)分布或两点分布。
+        </p>
+        <h3>数学期望</h3>
+        <p>
+            数学期望为：
+            $$ E(X)=p. $$
+        </p>
+        <h3>方差</h3>
+        <p>
+            方差为：
+            $$ D(X)=p(1-p). $$
+        </p>
+        <h2>二项分布</h2>
+        <h3>定义</h3>
+        <p>
+            设随机变量\(X\)的概率分布为：
+            $$ P\{X=k\}=C_n^kp^k(1-p)^{n-k},k=0,1,2,\ldots,n, $$
+            其中\(n\)为正整数，\(0< p< 1\)，则称随机变量\(X\)服从参数为\(n,p\)的二项分布，记作\(X\sim b(n,p)\)。
+        </p>
+        <h3>数学期望</h3>
+        <p>
+            数学期望为：
+            $$ E(X)=np. $$
+        </p>
+        <h3>方差</h3>
+        <p>
+            方差为：
+            $$ D(X)=np(1-p). $$
+        </p>
+        <h2>泊松（Poisson）分布</h2>
+        <h3>定义</h3>
+        <p>
+            设随机变量\(X\)的概率分布为：
+            $$ P\{X=k\}=\frac{\lambda^k}{k!}e^{-\lambda},k=0,1,2,\ldots, $$
+            其中\(\lambda>0\)，则称随机变量\(X\)服从参数为\(\lambda\)的泊松分布，记作\(X\sim \pi(\lambda)\)。
+        </p>
+        <h3>数学期望</h3>
+        <p>
+            数学期望为：
+            $$ E(X)=\lambda. $$
+        </p>
+        <h3>方差</h3>
+        <p>
+            方差为：
+            $$ D(X)=\lambda. $$
+        </p>
+        <h2>几何分布</h2>
+        <h3>定义</h3>
+        <p>
+            设随机变量\(X\)的概率分布为：
+            $$ P\{X=k\}=p(1-p)^{k-1},k=1,2,\ldots, $$
+            其中\(0< p< 1\)，则称随机变量\(X\)服从参数为\(p\)的几何分布，记作\(X\sim g(p)\)。
+        </p>
+        <h3>数学期望</h3>
+        <p>
+            数学期望为：
+            $$ E(X)=\frac{1}{p}. $$
+        </p>
+        <h3>方差</h3>
+        <p>
+            方差为：
+            $$ D(X)=\frac{1-p}{p^2}. $$
+        </p>
+        <h2>超几何分布</h2>
+        <h3>定义</h3>
+        <p>
+            设随机变量\(X\)的概率分布为：
+            $$ P\{X=k\}=\frac{C_M^kC_{N-M}^{n-k}}{C_N^n},\max(0,n-N+M)\leq k\leq \min(n,M), $$
+            其中\(N,M,n\)为正整数，且\(M\leq N,n\leq N\)，则称随机变量\(X\)服从参数为\(N,M,n\)的超几何分布，记作\(X\sim h(N,M,n)\)。
+        </p>
+        <h3>数学期望</h3>
+        <p>
+            数学期望为：
+            $$ E(X)=\frac{nM}{N}. $$
+        </p>
+        <h3>方差</h3>
+        <p>
+            方差为：
+            $$ D(X)=\frac{nM(N-M)(N-n)}{N^2(N-1)}. $$
+        </p>
+    </section>
+
+    <section class="box">
+        <h2>连续型随机变量</h2>
+        <h2>均匀分布</h2>
+        <h3>定义</h3>
+        <p>
+            设随机变量\(X\)的概率密度为：
+            $$ f(x)=\begin{cases}
+            \frac{1}{b-a},&a\leq x\leq b,\\
+            0,&\text{其他},
+            \end{cases} $$
+            其中\(a< b\)，则称随机变量\(X\)服从区间\([a,b]\)上的均匀分布，记作\(X\sim U(a,b)\)。
+        </p>
+        <h3>数学期望</h3>
+        <p>
+            数学期望为：
+            $$ E(X)=\frac{a+b}{2}. $$
+        </p>
+        <h3>方差</h3>
+        <p>
+            方差为：
+            $$ D(X)=\frac{(b-a)^2}{12}. $$
+        </p>
+        <h2>正态分布</h2>
+        <h3>定义</h3>
+        <p>
+            设随机变量\(X\)的概率密度为：
+            $$ f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}},-\infty< x< \infty, $$
+            其中\(-\infty< \mu< \infty,\sigma>0\)，则称随机变量\(X\)服从参数为\(\mu,\sigma^2\)的正态分布，记作\(X\sim N(\mu,\sigma^2)\)。
+        </p>
+        <h3>数学期望</h3>
+        <p>
+            数学期望为：
+            $$ E(X)=\mu. $$
+        </p>
+        <h3>方差</h3>
+        <p>
+            方差为：
+            $$ D(X)=\sigma^2. $$
+        </p>
+    </section>
+
+    <section class="box">
+        <h2>二维连续型随机变量</h2>
+        <h2>均匀分布</h2>
+        <h3>定义</h3>
+        <p>
+            设二维随机变量\((X,Y)\)的概率密度为：
+            $$ f(x,y)=\begin{cases}
+            \frac{1}{(b-a)(d-c)},&a\leq x\leq b,c\leq y\leq d,\\
+            0,&\text{其他},
+            \end{cases} $$
+            其中\(a< b,c< d\)，则称二维随机变量\((X,Y)\)服从矩形区域\([a,b]\times[c,d]\)上的均匀分布，记作\((X,Y)\sim U(a,b,c,d)\)。
+        </p>
+        <h3>数学期望</h3>
+        <p>
+            数学期望为：
+            $$ E(X)=\frac{a+b}{2},E(Y)=\frac{c+d}{2}. $$
+        </p>
+        <h3>方差</h3>
+        <p>
+            方差为：
+            $$ D(X)=\frac{(b-a)^2}{12},D(Y)=\frac{(d-c)^2}{12}. $$
+        </p>
+        <h2>正态分布</h2>
+        <h3>定义</h3>
+        <p>
+            设二维随机变量\((X,Y)\)的概率密度为：
+            $$ f(x,y)=\frac{1}{2\pi\sigma_1\sigma_2\sqrt{1-\rho^2}} \exp\left\{-\frac{1}{2(1-\rho^2)}\left[\frac{(x-\mu_1)^2}{\sigma_1^2}-\frac{2\rho(x-\mu_1)(y-\mu_2)}{\sigma_1\sigma_2}+\frac{(y-\mu_2)^2}{\sigma_2^2}\right]\right\}, $$
+            其中\(-\infty< \mu_1,\mu_2< \infty,\sigma_1>0,\sigma_2>0,-1< \rho< 1\)，则称二维随机变量\((X,Y)\)服从参数为\(\mu_1,\mu_2,\sigma_1^2,\sigma_2^2,\rho\)的二维正态分布，记作\((X,Y)\sim N(\mu_1,\mu_2,\sigma_1^2,\sigma_2^2,\rho)\)。
+        </p>
+        <h3>数学期望</h3>
+        <p>
+            数学期望为：
+            $$ E(X)=\mu_1,E(Y)=\mu_2. $$
+        </p>
+        <h3>方差</h3>
+        <p>
+            方差为：
+            $$ D(X)=\sigma_1^2,D(Y)=\sigma_2^2. $$
+        </p>
+    </section>
+
+    <section class="box">
+        <h2>二维连续型随机变量的函数的分布</h2>
+        <h2>\(Z=X+Y\)的概率密度</h2>
+        <p>
+            设\(X\)与\(Y\)相互独立，\(f_X(x)\)和\(f_Y(y)\)分别是二维随机变量\((X,Y)\)关于\(X\)和关于\(Y\)的边缘概率密度，则随机变量\(Z=X+Y\)的概率密度为：
+            $$ f_Z(z)=\int_{-\infty}^{+\infty}f_X(x)f_Y(z-x)dx. $$
+            $$ f_Z(z)=\int_{-\infty}^{+\infty}f_X(z-y)f_Y(y)dx. $$
+        </p>
+        <h2>\(M=max(X,Y)\)和\(N=min(X,Y)\)的分布函数</h2>
+        <p>
+            设二维随机变量\((X,Y)\)的分布函数为\(F(x,y)\)，则随机变量\(M=max(X,Y)\)和\(N=min(X,Y)\)的分布函数分别为：
+            $$ F_M(z)=P\{M\leq z\}=P\{X\leq z,Y\leq z\}=F_X(z)F_Y(z), $$
+            $$ F_N(z)=P\{N\leq z\}=1-P\{X>z,Y>z\}=1-[1-F_X(z)][1-F_Y(z)],z\in R. $$
+            其中\(F_X(x)\)和\(F_Y(y)\)分别是二维随机变量\((X,Y)\)关于\(X\)和关于\(Y\)的边缘分布函数。
+        </p>
+
+        <p class="edittime">
+            最后编辑：2025-11-10 &emsp;
+            编辑人：Aronda
+        </p>
+    </section>
+
+    <footer class="box">
+        <p>概率论与数理统计 关于各种分布的一些笔记</p>
+    </footer>
+    <audio src="../../musics/music-to-study/the-gentleness-of-time.mp3" autoplay loop></audio>
+</body>
+</html>
