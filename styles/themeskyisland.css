@@ -55,8 +55,16 @@ img.block {
         font-size: 1.2rem;
     }
 
-        .box p+ul, .box p+ol {
+        .box p+ul {
             list-style-type: inherit;
+        }
+
+        .box p + ol {
+            list-style-type: decimal;
+        }
+
+        .box p::before {
+            content: "　　";
         }
 
         .box p.middle {
@@ -67,7 +75,8 @@ img.block {
                 content: "";
             }
 
-        .box p::before {
+
+        .box p + br::after {
             content: "　　";
         }
 
