@@ -49,13 +49,21 @@ img.block {
     border-radius: 10px; 
 }
 
-    .box p, .box ul, .box ol {
-        list-style-type: none;
-        text-align: justify;
-        font-size: 1.2rem;
-    }
+.box p,
+.box ul,
+.box ol {
+    list-style-type: none;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6; 
+}
 
-        .box p+ul {
+.box ul li,
+.box ol li {
+    margin-bottom: 1em; 
+}
+
+    .box p+ul {
             list-style-type: inherit;
         }
 
@@ -113,6 +121,11 @@ a:hover, a:focus {
 
 .blue {
     color: blue;
+    font-style: inherit;
+}
+
+.purple {
+    color: purple;
     font-style: inherit;
 }
 
