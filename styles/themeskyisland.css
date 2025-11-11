@@ -83,11 +83,6 @@ img.block {
                 content: "";
             }
 
-
-        .box p + br::after {
-            content: "　　";
-        }
-
 footer.box p {
     text-align: center;
 }

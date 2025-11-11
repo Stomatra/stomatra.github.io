@@ -50,11 +50,30 @@ img.block {
     border-radius: 10px; 
 }
 
-    .box p, .box ul, .box ol {
-        list-style-type: none;
-        text-align:justify;
-        font-size:1.2rem;
+.box p,
+.box ul,
+.box ol {
+    list-style-type: none;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+    .box ul li,
+    .box ol li {
+        margin-bottom: 1em;
     }
+
+    .box p + ul {
+        list-style-type: inherit;
+    }
+
+    .box p + ol {
+        list-style-type: decimal;
+    }
+        .box p::before {
+            content: "　　";
+        }
 
         .box p.middle {
             text-align: center;
@@ -63,10 +82,6 @@ img.block {
             .box p.middle::before {
                 content: "";
             }
-
-        .box p::before {
-            content: "　　";
-        }
 
 footer.box p{
     text-align: center;
