@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <title>关于新主题：粉之恋 和代码块主题的设计</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="这是我在刚开始rle期间弄的一个新的主题">
+    <link href="../../styles/pink-love.css" type="text/css" rel="stylesheet" />
+    <link href="../../styles/code-normal.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" href="../../icon/rin.ico" type="image/x-icon" />
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "u3qzkqoioj");
+    </script>
+</head>
+<body>
+    <header>
+        <h1 class="titlebox">关于新主题：粉之恋 和代码块主题</h1>
+        <p>这是我在刚开始rle期间手机没电了所以弄一个新的主题</p>
+        <a href="../developer-logs.html">返回上一页</a>
+        <a href="../../index.html">返回主页</a>
+    </header>
+
+    <section class="box">
+        <h2>新主题的设计</h2>
+        <p>
+            首先便是先设置背景图片，然后选择红心图片设为最开始的图片，接下来设置线条(linear-gradient)，使其形成网格状，
+            最后设置背景的重复方式、大小、位置以及固定方式，
+            其中红心因为太大，需要通过其他软件把红心图片的大小缩小到合适的尺寸才行，否则会导致背景图案过大。
+            这是原图与修改后的图片：
+        </p>
+            <img class="inline-flex" src="../../images\developer-logs\about-pink-love\redheart.png" />
+            <img class="inline-flex" src="../../images\developer-logs\about-pink-love\1.png" />
+        <p>接下来是达到要求的css代码
+            <pre class="code"><span>css</span><code>
+    html {
+        background-color: #ffe4ef;
+        background-image: url('../images/style-images/redheart.png'), 
+            linear-gradient(to right, #ffd6e0 5px, transparent 5px),
+            linear-gradient(to bottom, #ffd6e0 5px, transparent 5px), 
+            linear-gradient(to right, #ffd6e0 5px, transparent 5px),
+            linear-gradient(to bottom, #ffd6e0 5px, transparent 5px);
+        background-repeat: repeat;
+        background-size: 320px 320px,320px 320px, 320px 320px, 320px 320px, 320px 320px, 320px 320px;
+        background-position: 0 0,155px 155px, 155px 155px, 165px 165px, 165px 165px;
+        background-attachment: fixed;
+        text-align: center;
+    }
+            </code></pre>
+        </p>
+        <p>
+            以及代码块主题的设计，主要是通过设置代码块的背景颜色为深色、边框、pre属性内的字体颜色等属性来实现的，另外也在pre和code部分用了分割的线条。
+            当然了，我有时也可以直接插入图片也行，如果要是为了更好突出一些变量之类的东西的话，以后也可能用js或ts之类的来实现。
+            <pre class="code"><span>css</span><code>
+    pre.code {
+    white-space: pre-wrap;
+    font-family: 'Fira Code', monospace;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #d4d4d4;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(50, 50, 50, 0.9);
+    border: 2px solid plum;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    }
+
+    code::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 10px 0 -10px 0;
+    background: linear-gradient(to right, plum, #d4d4d4, plum);
+    border-radius: 1px;
+    }
+
+    pre.code > :not(code) {
+    font-size: 1.3rem;
+    font-weight: bold;
+    }
+            </code></pre>
+        </p>
+        <p class="edittime">
+            最后编辑：2025-11-12 &emsp;
+            编辑人：Ayla &emsp;
+            views:0 &emsp;
+            likes:0
+        </p>
+    </section>
+
+    <footer class="box">
+        <p>毕竟都已经开始rle了嘛，弄点这个也是正常的嘛</p>
+    </footer>
+</body>
+</html>

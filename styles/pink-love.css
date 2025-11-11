@@ -1,0 +1,137 @@
+﻿html {
+    /* 淡粉色背景 */
+    background-color: #ffe4ef;
+    /* 横竖淡线条（两层linear-gradient）+ 红心图案（SVG base64） */
+    background-image: url('../images/style-images/redheart.png'), linear-gradient(to right, #ffd6e0 5px, transparent 5px), linear-gradient(to bottom, #ffd6e0 5px, transparent 5px), linear-gradient(to right, #ffd6e0 5px, transparent 5px), linear-gradient(to bottom, #ffd6e0 5px, transparent 5px);
+    background-repeat: repeat;
+
+    background-size: 320px 320px,320px 320px, 320px 320px, 320px 320px, 320px 320px, 320px 320px;
+    background-position: 0 0,155px 155px, 155px 155px, 165px 165px, 165px 165px;
+    /* 红心对齐到网格线交点处 */
+    background-attachment: fixed;
+    text-align: center;
+    /* 红心尺寸变为20x20px，间距仍为320px */
+}
+
+h1 {
+    font-family: 'vivo-sans', '游ゴシック体', 'Yu Gothic UI', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+.titlebox {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 182, 193, 0.8);
+    border: 2px solid plum;
+    margin-inline: 20vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.box {
+    padding: 20px;
+    margin-inline: 20vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    background-color: rgba(255, 105, 180, 0.3);
+    border: 2px solid plum;
+}
+
+img.inline-flex {
+    display: inline-flex;
+    margin: 10px;
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+img.block {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.box p,
+.box ul,
+.box ol {
+    list-style-type: none;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+    .box ul li,
+    .box ol li {
+        margin-bottom: 1em;
+    }
+
+    .box p + ul {
+        list-style-type: inherit;
+    }
+
+    .box p + ol {
+        list-style-type: decimal;
+    }
+
+    .box p::before {
+        content: "　　";
+    }
+
+    .box p.middle {
+        text-align: center;
+    }
+
+        .box p.middle::before {
+            content: "";
+        }
+
+footer.box p {
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: darkslateblue;
+}
+
+a:hover, a:focus {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.titlebox:hover, .titlebox:focus, .box:hover, .box:focus {
+    background-color: rgb(198, 63, 232, 0.5);
+    border-color: blueviolet;
+}
+
+.edittime {
+    font-size: 0.7rem;
+    color: gray;
+    text-align: end;
+    margin-top: 50px;
+    font-family: YouYuan;
+}
+
+.red {
+    color: red;
+    font-style: inherit;
+}
+
+.blue {
+    color: blue;
+    font-style: inherit;
+}
+
+.purple {
+    color: purple;
+    font-style: inherit;
+}
+
+footer {
+    font-family: YouYuan;
+}

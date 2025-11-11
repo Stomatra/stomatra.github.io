@@ -1,0 +1,135 @@
+﻿/* 代码块容器样式 */
+.code-block {
+    position: relative;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    background-color: #1e1e2e; /* 深紫灰背景，护眼且凸显代码 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* 轻微阴影增强立体感 */
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+    /* 悬停效果 */
+    .code-block:hover {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+
+/* 代码头部（含语言标识和复制按钮） */
+.code-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1.2rem;
+    background-color: #28283d; /* 比背景稍浅的头部 */
+    border-bottom: 1px solid #383850;
+}
+
+/* 语言标识 */
+.code-language {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #c4c4e0; /* 浅紫灰色文字 */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* 复制按钮 */
+.copy-btn {
+    padding: 0.3rem 0.6rem;
+    background-color: #383850;
+    color: #e0e0f5;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+    .copy-btn:hover {
+        background-color: #4a4a68;
+        color: #ffffff;
+    }
+
+    .copy-btn.copied {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+/* 代码内容区域 */
+.code-content {
+    padding: 1.2rem;
+    overflow-x: auto; /* 横向滚动适配长代码 */
+}
+
+    /* 代码文本基础样式 */
+    .code-content pre {
+        margin: 0;
+        padding: 0;
+    }
+
+    .code-content code {
+        font-family: "Consolas", "Monaco", "Menlo", monospace; /* 等宽字体确保对齐 */
+        font-size: 0.95rem;
+        line-height: 1.6; /* 行高适中，提升可读性 */
+        color: #e0e0f5; /* 主文字颜色 */
+    }
+
+    /* 语法高亮预设（覆盖常见代码元素） */
+    /* 关键字 */
+    .code-content .keyword {
+        color: #bb9af7; /* 亮紫色 */
+        font-weight: 500;
+    }
+
+    /* 字符串/正则 */
+    .code-content .string {
+        color: #9ece6a; /* 浅绿色 */
+    }
+
+    /* 注释 */
+    .code-content .comment {
+        color: #787894; /* 灰色，区分于代码 */
+        font-style: italic;
+    }
+
+    /* 函数/方法名 */
+    .code-content .function {
+        color: #7aa2f7; /* 浅蓝色 */
+    }
+
+    /* 变量/参数 */
+    .code-content .variable {
+        color: #f7768e; /* 浅粉色 */
+    }
+
+    /* 数字 */
+    .code-content .number {
+        color: #ff9e64; /* 橙色 */
+    }
+
+    /* 标点符号 */
+    .code-content .punctuation {
+        color: #c0caf5; /* 淡蓝色 */
+    }
+
+/* 响应式适配（小屏幕优化） */
+@media (max-width: 768px) {
+    .code-block {
+        border-radius: 6px;
+    }
+
+    .code-header {
+        padding: 0.6rem 1rem;
+    }
+
+    .code-content {
+        padding: 1rem;
+    }
+
+        .code-content code {
+            font-size: 0.9rem;
+        }
+}
