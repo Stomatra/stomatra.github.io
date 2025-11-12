@@ -119,6 +119,11 @@ a:hover, a:focus {
     font-style: inherit;
 }
 
+.purple {
+    color: purple;
+    font-style: inherit;
+}
+
 .bigger {
     font-size: 1.8rem;
 }

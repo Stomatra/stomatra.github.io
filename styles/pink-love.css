@@ -1,16 +1,11 @@
 ﻿html {
-    /* 淡粉色背景 */
     background-color: #ffe4ef;
-    /* 横竖淡线条（两层linear-gradient）+ 红心图案（SVG base64） */
     background-image: url('../images/style-images/redheart.png'), linear-gradient(to right, #ffd6e0 5px, transparent 5px), linear-gradient(to bottom, #ffd6e0 5px, transparent 5px), linear-gradient(to right, #ffd6e0 5px, transparent 5px), linear-gradient(to bottom, #ffd6e0 5px, transparent 5px);
     background-repeat: repeat;
-
     background-size: 320px 320px,320px 320px, 320px 320px, 320px 320px, 320px 320px, 320px 320px;
     background-position: 0 0,155px 155px, 155px 155px, 165px 165px, 165px 165px;
-    /* 红心对齐到网格线交点处 */
     background-attachment: fixed;
     text-align: center;
-    /* 红心尺寸变为20x20px，间距仍为320px */
 }
 
 h1 {
@@ -130,6 +125,14 @@ a:hover, a:focus {
 .purple {
     color: purple;
     font-style: inherit;
+}
+
+.bigger {
+    font-size: 1.8rem;
+}
+
+.bigger2 {
+    font-size: 2.2rem;
 }
 
 footer {

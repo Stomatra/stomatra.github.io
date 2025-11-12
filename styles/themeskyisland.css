@@ -124,6 +124,14 @@ a:hover, a:focus {
     font-style: inherit;
 }
 
+.bigger {
+    font-size: 1.8rem;
+}
+
+.bigger2 {
+    font-size: 2.2rem;
+}
+
 footer {
     font-family: YouYuan;
 }
