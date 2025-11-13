@@ -66,3 +66,27 @@ a:hover, a:focus {
     text-align: end;
     margin-top:50px;
 }
+
+@media (max-width: 600px) {
+    .music,
+    .titlebox,
+    .box {
+        margin-inline: 2vw;
+        margin-top: 16px;
+    }
+
+    .music {
+        font-size: 1.2rem;
+    }
+
+    img.inline-flex {
+        max-width: 90%;
+        margin: 8px auto;
+        display: block;
+    }
+
+    img.block {
+        max-width: 98%;
+        margin: 12px auto;
+    }
+}
