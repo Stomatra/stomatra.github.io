@@ -50,6 +50,37 @@ img.block {
     border-radius: 10px; 
 }
 
+section.music {
+    margin: 20px auto;
+    padding: 10px;
+    margin-inline:22vw;
+    border-radius: 10px;
+    background-color: rgba(255, 182, 193, 0.6);
+    border: 2px solid plum;
+    font-size: 1.5rem;
+    font-family: 'Fira Sans', 'Segoe UI', 'Hiragino Sans GB', 'Microsoft YaHei', 'Arial Rounded MT Bold', Arial, sans-serif;
+    color: #c2185b;
+    text-align: center;
+    position: relative;
+}
+
+    section.music p::before,
+    section.music p::after {
+        content: "🎵";
+        font-size: 2rem;
+        vertical-align: middle;
+        margin: 0 0.5em;
+        color: #ba68c8;
+    }
+
+    section.music p::before {
+        margin-right: 0.5em;
+    }
+
+    section.music p::after {
+        margin-left: 0.5em;
+    }
+
 .box p,
 .box ul,
 .box ol {
@@ -96,7 +127,7 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
-.titlebox:hover, .titlebox:focus, .box:hover, .box:focus {
+.titlebox:hover, .titlebox:focus, .box:hover, .box:focus,.music:hover,.music:focus {
     background-color: darkred;
     border-color: mediumvioletred;
 }
@@ -121,6 +152,11 @@ a:hover, a:focus {
 
 .purple {
     color: purple;
+    font-style: inherit;
+}
+
+.aqua {
+    color: aqua;
     font-style: inherit;
 }
 
