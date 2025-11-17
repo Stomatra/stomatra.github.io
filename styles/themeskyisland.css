@@ -63,11 +63,11 @@ img.block {
     margin-bottom: 1em; 
 }
 
-    .box p+ul {
+    .box p+ul,.box ul {
             list-style-type: inherit;
         }
 
-        .box p + ol {
+        .box p + ol,.box ol {
             list-style-type: decimal;
         }
 
