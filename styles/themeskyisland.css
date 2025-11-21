@@ -1,4 +1,4 @@
-﻿html {
+html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(to bottom, rgba(173, 216, 230, 0.5), rgba(221, 160, 221, 0.5));
     background-attachment: fixed;
@@ -38,7 +38,7 @@ img.inline-flex {
     margin: 10px;
     max-width: 40%;
     height: auto;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 img.block {
@@ -46,7 +46,7 @@ img.block {
     margin: 20px auto;
     max-width: 80%;
     height: auto;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 section.music {
@@ -86,33 +86,33 @@ section.music {
     list-style-type: none;
     text-align: justify;
     font-size: 1.2rem;
-    line-height: 1.6; 
+    line-height: 1.6;
 }
 
-.box ul li,
-.box ol li {
-    margin-bottom: 1em; 
-}
+    .box ul li,
+    .box ol li {
+        margin-bottom: 1em;
+    }
 
-    .box p+ul,.box ul {
-            list-style-type: inherit;
+    .box p + ul, .box ul {
+        list-style-type: inherit;
+    }
+
+    .box p + ol, .box ol {
+        list-style-type: decimal;
+    }
+
+    .box p::before {
+        content: "　　";
+    }
+
+    .box p.middle {
+        text-align: center;
+    }
+
+        .box p.middle::before {
+            content: "";
         }
-
-        .box p + ol,.box ol {
-            list-style-type: decimal;
-        }
-
-        .box p::before {
-            content: "　　";
-        }
-
-        .box p.middle {
-            text-align: center;
-        }
-
-            .box p.middle::before {
-                content: "";
-            }
 
 footer.box p {
     text-align: center;
@@ -127,7 +127,7 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
-.titlebox:hover, .titlebox:focus, .box:hover, .box:focus,.music:hover, .music:focus {
+.titlebox:hover, .titlebox:focus, .box:hover, .box:focus, .music:hover, .music:focus {
     background-color: lightyellow;
     border-color: blueviolet;
 }

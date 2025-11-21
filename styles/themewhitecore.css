@@ -1,0 +1,196 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to bottom, aliceblue, gray);
+    background-attachment: fixed;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: 'vivo-sans', '游ゴシック体', 'Yu Gothic UI', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+header p {
+    color: slateblue;
+}
+
+.titlebox {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.4);
+    border: 2px solid steelblue;
+    margin-inline: 20vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.box {
+    padding: 20px;
+    margin-inline: 20vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.4);
+    border: 2px solid steelblue;
+}
+
+img.inline-flex {
+    display: inline-flex;
+    margin: 10px;
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+img.block {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+section.music {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.4);
+    border: 2px solid steelblue;
+    font-size: 1.5rem;
+    font-family: 'Fira Sans', 'Segoe UI', 'Hiragino Sans GB', 'Microsoft YaHei', 'Arial Rounded MT Bold', Arial, sans-serif;
+    color: #c2185b;
+    text-align: center;
+    position: relative;
+}
+
+    section.music p::before,
+    section.music p::after {
+        content: "🎵";
+        font-size: 2rem;
+        vertical-align: middle;
+        margin: 0 0.5em;
+        color: #ba68c8;
+    }
+
+    section.music p::before {
+        margin-right: 0.5em;
+    }
+
+    section.music p::after {
+        margin-left: 0.5em;
+    }
+
+.box p,
+.box ul,
+.box ol {
+    list-style-type: none;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+    .box ul li,
+    .box ol li {
+        margin-bottom: 1em;
+    }
+
+    .box p + ul, .box ul {
+        list-style-type: inherit;
+    }
+
+    .box p + ol, .box ol {
+        list-style-type: decimal;
+    }
+
+    .box p::before {
+        content: "　　";
+    }
+
+    .box p.middle {
+        text-align: center;
+    }
+
+        .box p.middle::before {
+            content: "";
+        }
+
+footer.box p {
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: steelblue;
+}
+
+a:hover, a:focus {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.titlebox:hover, .titlebox:focus, .box:hover, .box:focus, .music:hover, .music:focus {
+    background-color: dimgrey;
+    border-color: blueviolet;
+}
+
+.edittime {
+    font-size: 0.7rem;
+    text-align: end;
+    margin-top: 50px;
+    font-family: YouYuan;
+}
+
+.red {
+    color: red;
+    font-style: inherit;
+}
+
+.blue {
+    color: blue;
+    font-style: inherit;
+}
+
+.purple {
+    color: purple;
+    font-style: inherit;
+}
+
+.bigger {
+    font-size: 1.8rem;
+}
+
+.bigger2 {
+    font-size: 2.2rem;
+}
+
+footer {
+    font-family: YouYuan;
+}
+
+@media (max-width: 600px) {
+    .music,
+    .titlebox,
+    .box {
+        margin-inline: 2vw;
+        margin-top: 16px;
+    }
+
+    .music {
+        font-size: 1.2rem;
+    }
+
+    img.inline-flex {
+        max-width: 90%;
+        margin: 8px auto;
+        display: block;
+    }
+
+    img.block {
+        max-width: 98%;
+        margin: 12px auto;
+    }
+}
