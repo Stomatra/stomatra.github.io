@@ -3,27 +3,27 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "Yuki Rin's Page",
     // 站点描述
-    description: "Hello World",
+    description: "跨越虚无,追问永恒.",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.imsyy.top",
+    site: "https://rinyuki.com",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "Yuki Rin",
       cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      email: "rinyuki@rinyuki.com",
+      link: "https://www.rinyuki.com",
     },
   },
   // 备案信息
-  icp: "萌ICP备114514号",
+  icp: "萌ICP备250830号",
   // 建站日期
-  since: "2020-07-28",
+  since: "2025/11/10",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -119,25 +119,14 @@ export const themeConfig = {
       ],
     },
     {
-      text: "专栏",
-      items: [
-        { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
-        { text: "我的项目", link: "/pages/project", icon: "code" },
-        { text: "效率工具", link: "/pages/tools", icon: "tools" },
-      ],
-    },
-    {
       text: "友链",
       items: [
-        { text: "友链鱼塘", link: "/pages/friends", icon: "fish" },
         { text: "友情链接", link: "/pages/link", icon: "people" },
       ],
     },
     {
       text: "我的",
       items: [
-        { text: "畅所欲言", link: "/pages/message", icon: "chat" },
-        { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
         { text: "关于本站", link: "/pages/about", icon: "contacts" },
       ],
     },
@@ -152,66 +141,6 @@ export const themeConfig = {
           name: "主站",
           url: "/",
         },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
-        },
-      ],
-    },
-    {
-      name: "服务",
-      list: [
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "起始页",
-          url: "https://nav.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "今日热榜",
-          url: "https://hot.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "站点监测",
-          url: "https://status.imsyy.top/",
-        },
-      ],
-    },
-    {
-      name: "项目",
-      list: [
-        {
-          icon: "/images/logo/logo.webp",
-          name: "Curve",
-          url: "https://github.com/imsyy/vitepress-theme-curve",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
-          name: "SPlayer",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "Snavigation",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "Home",
-          url: "https://github.com/imsyy/home",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "DailyHotApi",
-          url: "https://github.com/imsyy/DailyHotApi",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "site-status",
-          url: "https://github.com/imsyy/site-status",
-        },
       ],
     },
   ],
@@ -222,7 +151,7 @@ export const themeConfig = {
     // 是否开启封面显示
     showCover: {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
-      enable: true,
+      enable: false,
       // 封面布局方式: left | right | both
       coverLayout: 'both',
       // 默认封面(随机展示)
@@ -243,23 +172,23 @@ export const themeConfig = {
       },
       {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
+        link: "https://www.github.com/Stomatra",
       },
       {
         icon: "telegram",
-        link: "https://t.me/bottom_user",
+        link: "https://t.me/Stomatra",
       },
       {
         icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
+        link: "https://space.bilibili.com/1606864672",
       },
       {
         icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
+        link: "https://res.abeim.cn/api/qq/?qq=3223572901",
       },
       {
         icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
+        link: "https://twitter.com/Stomatra",
       },
     ],
     // sitemap
@@ -276,40 +205,15 @@ export const themeConfig = {
       {
         text: "项目",
         items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
-        ],
-      },
-      {
-        text: "专栏",
-        items: [
-          { text: "技术分享", link: "/pages/categories/技术分享" },
-          { text: "我的项目", link: "/pages/project" },
-          { text: "效率工具", link: "/pages/tools" },
+          { text: "Home", link: "https://github.com/Stomatra", newTab: true },
         ],
       },
       {
         text: "页面",
         items: [
-          { text: "畅所欲言", link: "/pages/message" },
           { text: "关于本站", link: "/pages/about" },
           { text: "隐私政策", link: "/pages/privacy" },
           { text: "版权协议", link: "/pages/cc" },
-        ],
-      },
-      {
-        text: "服务",
-        items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
-          {
-            text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
-            newTab: true,
-          },
         ],
       },
     ],
@@ -358,7 +262,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2025-01-29",
+        date: "2027-01-29",
       },
     },
     // 站点数据
@@ -380,11 +284,11 @@ export const themeConfig = {
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
-    enable: false,
+    enable: true,
     // url
     url: "https://api-meting.example.com",
     // id
-    id: 9379831714,
+    id: 12392948272,
     // netease / tencent / kugou
     server: "netease",
     // playlist / album / song
@@ -401,9 +305,9 @@ export const themeConfig = {
   rewardData: {
     enable: true,
     // 微信二维码
-    wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
+    wechat: "../../public/images/payments/wechat-feed.jpg",
     // 支付宝二维码
-    alipay: "https://pic.efefee.cn/uploads/2024/04/07/661206631d3b5.webp",
+    alipay: "../../public/images/payments/alipay-feed.jpg",
   },
   // 图片灯箱
   fancybox: {

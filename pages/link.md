@@ -21,29 +21,9 @@ import Link from "@/views/Link.vue";
 
 ### 我的友链信息
 
-- 名称：`無名小栈`
-- 描述：`分享技术与科技生活`
-- 地址：`https://blog.imsyy.top/`
-- 头像：`https://pic.imgdb.cn/item/65bc52b0871b83018a06699d.png`
-- 站点图片：`https://pic.imgdb.cn/item/65dc47009f345e8d030b65ba.png`
-- 订阅：`https://blog.imsyy.top/rss.xml`
-
-```yml
-name: 無名小栈
-desc: 分享技术与科技生活
-url: https://blog.imsyy.top/
-avatar: https://pic.imgdb.cn/item/65bc52b0871b83018a06699d.png
-screenshot: https://pic.imgdb.cn/item/65dc47009f345e8d030b65ba.png
-rss: https://blog.imsyy.top/rss.xml
-```
-
-### 申请友链
-
-- 我已添加 [無名小栈](https://blog.imsyy.top/) 的友情链接。
-- **请多多进行互动后再来进行友链添加**，若为首次评论直接申请友链，将不会通过。
-- 本站不添加 **采集站**、**纯搬运站点**、**论坛类站点** 等非 **个人博客** 类型的站点。
-- 站点目前可以在 **中国大陆区域** 正常访问。
-- 需要是独立域名，不接受 `github.io`、`vercel.app` 等第三方域名。
-- 网站内容符合 **中国大陆法律法规**。
-
-> 若申请时或日后有违反上述规定的站点，博主有权**自行删除且不进行通知！**
+- 名称：`Yuki Rin's Page`
+- 描述：`跨越虚无,追问永恒.`
+- 地址：`https://rinyuki.com`
+- 头像：`../../public/images/logo/favicon.ico`
+- 站点图片：`../../public/images/logo/favicon.ico`
+- 订阅：`https://rinyuki.com/rss.xml`
