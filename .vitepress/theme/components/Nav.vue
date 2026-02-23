@@ -51,7 +51,7 @@
           </span>
         </div>
         <div class="right-nav">
-          <!-- 开往 -->
+          <!-- 开往 
           <a
             class="menu-btn nav-btn travellings"
             title="开往-友链接力"
@@ -59,7 +59,7 @@
             target="_blank"
           >
             <i class="iconfont icon-subway"></i>
-          </a>
+          </a>-->
           <!-- 随机文章 -->
           <div
             class="menu-btn nav-btn"

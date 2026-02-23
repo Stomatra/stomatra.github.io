@@ -23,9 +23,9 @@ export const themeConfig = {
   // 备案信息
   icp: "萌ICP备250830号",
   // 建站日期
-  since: "2025/11/10",
+  since: "2025/11/5",
   // 每页文章数据
-  postSize: 8,
+  postSize: 6,
   // inject
   inject: {
     // 头部
@@ -246,7 +246,7 @@ export const themeConfig = {
     // 站点简介
     hello: {
       enable: true,
-      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，其中大部分内容会侧重于<strong>前端开发</strong>。希望你可以在这里找到对你有用的知识和教程。",
+      text: "这里是Stoma & YukiRin的博客,记录我们在技术,生活等方面的点滴.希望在这里与你分享我们的经历和见解,一起成长!",
     },
     // 目录
     toc: {
@@ -261,8 +261,8 @@ export const themeConfig = {
       enable: true,
       // 倒计时日期
       data: {
-        name: "春节",
-        date: "2027-01-29",
+        name: "开学",
+        date: "2026-3-9",
       },
     },
     // 站点数据
@@ -305,9 +305,9 @@ export const themeConfig = {
   rewardData: {
     enable: true,
     // 微信二维码
-    wechat: "../../public/images/payments/wechat-feed.jpg",
+    wechat: "https://rinyuki.com/images/payments/wechat-feed.jpg",
     // 支付宝二维码
-    alipay: "../../public/images/payments/alipay-feed.jpg",
+    alipay: "https://rinyuki.com/images/payments/alipay-feed.jpg",
   },
   // 图片灯箱
   fancybox: {
