@@ -41,6 +41,8 @@
 </template>
 
 <script setup>
+import Artalk from "artalk";
+import "artalk/dist/Artalk.css";
 import { storeToRefs } from "pinia";
 import { mainStore } from "@/store";
 import { calculateScroll, specialDayGray } from "@/utils/helper";
@@ -59,6 +61,38 @@ const isPostPage = computed(() => {
   const routePath = decodeURIComponent(route.path);
   return routePath.includes("/posts/");
 });
+
+let artalkInstance = null;
+
+const mountArtalk = async () => {
+  if (!isPostPage.value || page.value.isNotFound || loadingStatus.value) return;
+
+  await nextTick();
+
+  const el = document.getElementById("artalk");
+  if (!el) return;
+
+  // 防止重复挂载
+  if (artalkInstance) {
+    artalkInstance.destroy?.();
+    artalkInstance = null;
+  }
+
+  artalkInstance = Artalk.init({
+    el: "#artalk",
+    server: "https://comment.rinyuki.com",
+    site: "rinyuki.com",
+    pageKey: decodeURIComponent(route.path),
+    pageTitle: document.title,
+  });
+};
+
+const destroyArtalk = () => {
+  if (artalkInstance) {
+    artalkInstance.destroy?.();
+    artalkInstance = null;
+  }
+};
 
 // 开启右键菜单
 const openRightMenu = (e) => {
@@ -129,6 +163,21 @@ watch(
   () => changeSiteFont(),
 );
 
+watch(
+  () => route.path,
+  async () => {
+    destroyArtalk();
+    await mountArtalk();
+  },
+);
+
+watch(
+  () => loadingStatus.value,
+  async (loading) => {
+    if (!loading) await mountArtalk();
+  },
+);
+
 onMounted(() => {
   console.log(frontmatter.value, page.value, theme.value);
   // 全站置灰
@@ -145,15 +194,20 @@ onMounted(() => {
   window.addEventListener("copy", copyTip);
   // 监听系统颜色
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", changeSiteThemeType);
+  mountArtalk();
 });
 
 onBeforeUnmount(() => {
   window.removeEventListener("scroll", calculateScroll);
   window.removeEventListener("contextmenu", openRightMenu);
+  destroyArtalk();
 });
 </script>
 
 <style lang="scss" scoped>
+.comment-wrap {
+  margin-top: 24px;
+}
 .mian-layout {
   width: 100%;
   max-width: 1400px;

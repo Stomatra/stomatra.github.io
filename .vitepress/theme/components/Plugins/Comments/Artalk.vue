@@ -4,7 +4,8 @@
 
 <script setup>
 import { jumpRedirect } from "@/utils/commonTools";
-import initComments from "@/utils/initComments";
+import Artalk from "artalk";
+import "artalk/dist/Artalk.css";
 
 const route = useRoute();
 const props = defineProps({
@@ -26,7 +27,6 @@ const commentRef = ref(null);
 const initArtalk = async () => {
   try {
     await nextTick();
-    const Artalk = await initComments(theme.value);
     artalk.value = Artalk.init({
       el: commentRef.value || "#comment-dom",
       locale: "auto",

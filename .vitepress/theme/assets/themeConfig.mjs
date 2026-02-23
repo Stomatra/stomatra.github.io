@@ -25,7 +25,7 @@ export const themeConfig = {
   // 建站日期
   since: "2025/11/5",
   // 每页文章数据
-  postSize: 6,
+  postSize: 8,
   // inject
   inject: {
     // 头部
@@ -220,15 +220,15 @@ export const themeConfig = {
   },
   // 评论
   comment: {
-    enable: false,
+    enable: true,
     // 评论系统选择
     // artalk / twikoo
     type: "artalk",
     // artalk
     // https://artalk.js.org/
     artalk: {
-      site: "",
-      server: "",
+      site: "rinyuki.com",
+      server: "https://comment.rinyuki.com",
     },
     // twikoo
     // https://twikoo.js.org/
@@ -264,6 +264,10 @@ export const themeConfig = {
         name: "开学",
         date: "2026-3-9",
       },
+    },
+    // 天气数据
+    weather: {
+      enable: true,
     },
     // 站点数据
     siteData: {
