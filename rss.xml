@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Yuki Rin's Page</title>
+        <link>https://rinyuki.com</link>
+        <description>跨越虚无,追问永恒.</description>
+        <lastBuildDate>Tue, 24 Feb 2026 18:10:25 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Yuki Rin</generator>
+        <language>zh</language>
+        <copyright>Copyright © 2020-present Yuki Rin</copyright>
+        <item>
+            <title><![CDATA[构建属于自己的curve主题的指南]]></title>
+            <link>https://rinyuki.com/posts/2026/0224</link>
+            <guid>https://rinyuki.com/posts/2026/0224</guid>
+            <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[这篇文章将会介绍如何构建属于自己的curve主题,以及一些相关的修改和部署的经验分享.]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+        <item>
+            <title><![CDATA[关于孤独]]></title>
+            <link>https://rinyuki.com/posts/2026/0223</link>
+            <guid>https://rinyuki.com/posts/2026/0223</guid>
+            <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+        <item>
+            <title><![CDATA[在VScode中构建Verilog环境以及自动化生成，运行项目文件的方法]]></title>
+            <link>https://rinyuki.com/posts/2026/0214</link>
+            <guid>https://rinyuki.com/posts/2026/0214</guid>
+            <pubDate>Sat, 14 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[这是在Vscode中构建Verilog环境以及自动化生成，运行项目文件的方法的教程.如果你想要学习Verilog,或者想要在VScode中搭建一个Verilog的开发环境的话,这篇文章可能会对你有帮助哦.]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+        <item>
+            <title><![CDATA[自我介绍]]></title>
+            <link>https://rinyuki.com/posts/2026/0114</link>
+            <guid>https://rinyuki.com/posts/2026/0114</guid>
+            <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[About me.]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+        <item>
+            <title><![CDATA[2026年寒假(1,2月)期间日记]]></title>
+            <link>https://rinyuki.com/posts/2026/0110</link>
+            <guid>https://rinyuki.com/posts/2026/0110</guid>
+            <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[这是2026年寒假(1,2月)期间的日记.记录了我在这段时间内的生活和心情变化.希望通过这些记录,能够更好地了解自己,也希望能够给读者带来一些启发和共鸣.]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+        <item>
+            <title><![CDATA[关于我的第一首的正式的音乐]]></title>
+            <link>https://rinyuki.com/posts/2025/1205</link>
+            <guid>https://rinyuki.com/posts/2025/1205</guid>
+            <pubDate>Thu, 04 Dec 2025 16:00:00 GMT</pubDate>
+            <description><![CDATA[innocence of summertime.这是我的第一首正式的音乐。原来是2025/05/20就发布了的，但一直到现在才把这个发上来。]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+        <item>
+            <title><![CDATA[关于使用Clatity收集访客信息(已过时)]]></title>
+            <link>https://rinyuki.com/posts/2025/1110-1</link>
+            <guid>https://rinyuki.com/posts/2025/1110-1</guid>
+            <pubDate>Mon, 10 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[这是关于使用Clatity收集访客信息的相关内容.如果你想要了解我会收集哪些信息,以及你是否应该阻止我收集这些信息,以及如何阻止我收集这些信息的话,这篇文章可能会对你有帮助哦.]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+        <item>
+            <title><![CDATA[概率论中各种分布相关的一些笔记]]></title>
+            <link>https://rinyuki.com/posts/2025/1110</link>
+            <guid>https://rinyuki.com/posts/2025/1110</guid>
+            <pubDate>Mon, 10 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[这是概率论中各种分布相关的一些笔记.包括离散型随机变量的两点分布,二项分布,泊松分布,几何分布,超几何分布.还有连续型随机变量的均匀分布,正态分布.以及二维连续型随机变量的均匀分布,正态分布.最后还有二维连续型随机变量的函数的分布.]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+        <item>
+            <title><![CDATA[OverVoid的前世今生]]></title>
+            <link>https://rinyuki.com/posts/2025/1108</link>
+            <guid>https://rinyuki.com/posts/2025/1108</guid>
+            <pubDate>Fri, 07 Nov 2025 16:00:00 GMT</pubDate>
+            <description><![CDATA[OverVoid的前世今生]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+        <item>
+            <title><![CDATA[欢迎使用 Curve]]></title>
+            <link>https://rinyuki.com/posts/2024/1010</link>
+            <guid>https://rinyuki.com/posts/2024/1010</guid>
+            <pubDate>Thu, 10 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[欢迎使用 Curve 主题，这是你的第一篇文章]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+    </channel>
+</rss>
