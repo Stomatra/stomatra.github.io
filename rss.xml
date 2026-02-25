@@ -4,11 +4,19 @@
         <title>Yuki Rin's Page</title>
         <link>https://rinyuki.com</link>
         <description>跨越虚无,追问永恒.</description>
-        <lastBuildDate>Tue, 24 Feb 2026 18:10:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Feb 2026 13:44:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Yuki Rin</generator>
         <language>zh</language>
         <copyright>Copyright © 2020-present Yuki Rin</copyright>
+        <item>
+            <title><![CDATA[为你的curve主题添加评论功能]]></title>
+            <link>https://rinyuki.com/posts/2026/0225</link>
+            <guid>https://rinyuki.com/posts/2026/0225</guid>
+            <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[这篇文章是将评论功能添加到你的curve主题的一个经验分享.]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
         <item>
             <title><![CDATA[构建属于自己的curve主题的指南]]></title>
             <link>https://rinyuki.com/posts/2026/0224</link>
@@ -58,9 +66,9 @@
         </item>
         <item>
             <title><![CDATA[关于使用Clatity收集访客信息(已过时)]]></title>
-            <link>https://rinyuki.com/posts/2025/1110-1</link>
-            <guid>https://rinyuki.com/posts/2025/1110-1</guid>
-            <pubDate>Mon, 10 Nov 2025 00:00:00 GMT</pubDate>
+            <link>https://rinyuki.com/posts/2025/1111</link>
+            <guid>https://rinyuki.com/posts/2025/1111</guid>
+            <pubDate>Tue, 11 Nov 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[这是关于使用Clatity收集访客信息的相关内容.如果你想要了解我会收集哪些信息,以及你是否应该阻止我收集这些信息,以及如何阻止我收集这些信息的话,这篇文章可能会对你有帮助哦.]]></description>
             <author>rinyuki@rinyuki.com (Yuki Rin)</author>
         </item>
@@ -78,14 +86,6 @@
             <guid>https://rinyuki.com/posts/2025/1108</guid>
             <pubDate>Fri, 07 Nov 2025 16:00:00 GMT</pubDate>
             <description><![CDATA[OverVoid的前世今生]]></description>
-            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
-        </item>
-        <item>
-            <title><![CDATA[欢迎使用 Curve]]></title>
-            <link>https://rinyuki.com/posts/2024/1010</link>
-            <guid>https://rinyuki.com/posts/2024/1010</guid>
-            <pubDate>Thu, 10 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[欢迎使用 Curve 主题，这是你的第一篇文章]]></description>
             <author>rinyuki@rinyuki.com (Yuki Rin)</author>
         </item>
     </channel>
