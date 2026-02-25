@@ -40,7 +40,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog.imsyy.top/rss.xml",
+          href: "https://rinyuki.com/rss.xml",
         },
       ],
       // 预载 CDN
@@ -168,7 +168,7 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
+        link: "mailto:rinyuki@rinyuki.com",
       },
       {
         icon: "github",
