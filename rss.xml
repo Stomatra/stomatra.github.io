@@ -4,7 +4,7 @@
         <title>Yuki Rin's Page</title>
         <link>https://rinyuki.com</link>
         <description>跨越虚无,追问永恒.</description>
-        <lastBuildDate>Wed, 25 Feb 2026 15:27:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 19:03:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Yuki Rin</generator>
         <language>zh</language>
@@ -15,6 +15,14 @@
             <guid>https://rinyuki.com/posts/2026/0225</guid>
             <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[这篇文章是将评论功能添加到你的curve主题的一个经验分享.]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
+        <item>
+            <title><![CDATA[Verilog学习笔记]]></title>
+            <link>https://rinyuki.com/posts/2026/0226</link>
+            <guid>https://rinyuki.com/posts/2026/0226</guid>
+            <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[这篇文章是关于Verilog学习的笔记.]]></description>
             <author>rinyuki@rinyuki.com (Yuki Rin)</author>
         </item>
         <item>
@@ -79,14 +87,6 @@
             <guid>https://rinyuki.com/posts/2025/1205</guid>
             <pubDate>Thu, 04 Dec 2025 16:00:00 GMT</pubDate>
             <description><![CDATA[innocence of summertime.这是我的第一首正式的音乐。原来是2025/05/20就发布了的，但一直到现在才把这个发上来。]]></description>
-            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
-        </item>
-        <item>
-            <title><![CDATA[关于使用Clatity收集访客信息(已过时)]]></title>
-            <link>https://rinyuki.com/posts/2025/1111</link>
-            <guid>https://rinyuki.com/posts/2025/1111</guid>
-            <pubDate>Tue, 11 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[这是关于使用Clatity收集访客信息的相关内容.如果你想要了解我会收集哪些信息,以及你是否应该阻止我收集这些信息,以及如何阻止我收集这些信息的话,这篇文章可能会对你有帮助哦.]]></description>
             <author>rinyuki@rinyuki.com (Yuki Rin)</author>
         </item>
     </channel>
