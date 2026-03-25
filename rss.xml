@@ -4,11 +4,19 @@
         <title>Yuki Rin's Page</title>
         <link>https://rinyuki.com</link>
         <description>跨越虚无,追问永恒.</description>
-        <lastBuildDate>Thu, 05 Mar 2026 19:03:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Mar 2026 14:45:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Yuki Rin</generator>
         <language>zh</language>
         <copyright>Copyright © 2020-present Yuki Rin</copyright>
+        <item>
+            <title><![CDATA[计算机三级嵌入式背题]]></title>
+            <link>https://rinyuki.com/posts/2026/0325</link>
+            <guid>https://rinyuki.com/posts/2026/0325</guid>
+            <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[计算机三级嵌入式背题.]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
         <item>
             <title><![CDATA[为你的curve主题添加评论功能]]></title>
             <link>https://rinyuki.com/posts/2026/0225</link>
@@ -79,14 +87,6 @@
             <guid>https://rinyuki.com/posts/2026/0110</guid>
             <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[这是2026年寒假(1,2月)期间的日记.记录了我在这段时间内的生活和心情变化.希望通过这些记录,能够更好地了解自己,也希望能够给读者带来一些启发和共鸣.]]></description>
-            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
-        </item>
-        <item>
-            <title><![CDATA[关于我的第一首的正式的音乐]]></title>
-            <link>https://rinyuki.com/posts/2025/1205</link>
-            <guid>https://rinyuki.com/posts/2025/1205</guid>
-            <pubDate>Thu, 04 Dec 2025 16:00:00 GMT</pubDate>
-            <description><![CDATA[innocence of summertime.这是我的第一首正式的音乐。原来是2025/05/20就发布了的，但一直到现在才把这个发上来。]]></description>
             <author>rinyuki@rinyuki.com (Yuki Rin)</author>
         </item>
     </channel>
