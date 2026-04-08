@@ -3,12 +3,20 @@
     <channel>
         <title>Yuki Rin's Page</title>
         <link>https://rinyuki.com</link>
-        <description>跨越虚无,追问永恒.</description>
-        <lastBuildDate>Fri, 27 Mar 2026 15:52:07 GMT</lastBuildDate>
+        <description>海倒悬于天,世界漂浮于天际.</description>
+        <lastBuildDate>Wed, 08 Apr 2026 10:45:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Yuki Rin</generator>
         <language>zh</language>
         <copyright>Copyright © 2020-present Yuki Rin</copyright>
+        <item>
+            <title><![CDATA[这个世界真是疯了]]></title>
+            <link>https://rinyuki.com/posts/2026/0408</link>
+            <guid>https://rinyuki.com/posts/2026/0408</guid>
+            <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[正如所看到的那样,这个世界疯了,真的疯了.]]></description>
+            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
+        </item>
         <item>
             <title><![CDATA[计算机三级嵌入式背题]]></title>
             <link>https://rinyuki.com/posts/2026/0325</link>
@@ -79,14 +87,6 @@
             <guid>https://rinyuki.com/posts/2026/0114</guid>
             <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[About me.]]></description>
-            <author>rinyuki@rinyuki.com (Yuki Rin)</author>
-        </item>
-        <item>
-            <title><![CDATA[2026年寒假(1,2月)期间日记]]></title>
-            <link>https://rinyuki.com/posts/2026/0110</link>
-            <guid>https://rinyuki.com/posts/2026/0110</guid>
-            <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[这是2026年寒假(1,2月)期间的日记.记录了我在这段时间内的生活和心情变化.希望通过这些记录,能够更好地了解自己,也希望能够给读者带来一些启发和共鸣.]]></description>
             <author>rinyuki@rinyuki.com (Yuki Rin)</author>
         </item>
     </channel>
