@@ -30,6 +30,12 @@ const linkData = [
         desc:"我仍然在无人问津的阴雨霉湿之地,和着雨音唱着没有听众的歌曲.",
         url:"https://blog.unr3aldr3am.top/",
       },
+      {
+        name:"orangeawa",
+        avatar:"https://github.com/orangeawa/orangeawa.github.io/blob/master/assets/img/auther.jpg",
+        desc:"",
+        url:"https://orangeawa.github.io/"
+      },
     ],
   },
 ];

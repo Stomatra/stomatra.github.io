@@ -5,7 +5,7 @@ export const themeConfig = {
     // 站点标题
     title: "Yuki Rin's Page",
     // 站点描述
-    description: "跨越虚无,追问永恒.",
+    description: "海倒悬于天,世界漂浮于天际.",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
@@ -220,7 +220,7 @@ export const themeConfig = {
   },
   // 评论
   comment: {
-    enable: true,
+    enable: false,
     // 评论系统选择
     // artalk / twikoo
     type: "artalk",
@@ -261,8 +261,8 @@ export const themeConfig = {
       enable: true,
       // 倒计时日期
       data: {
-        name: "开学",
-        date: "2026-3-9",
+        name: "期末考试",
+        date: "2026-7-10",
       },
     },
     // 天气数据
