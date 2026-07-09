@@ -51,6 +51,12 @@ export default withPwa(
     markdown: {
       math: true,
       lineNumbers: true,
+      languages: ["system-verilog"],
+      languageAlias: {
+        SystemVerilog: "system-verilog",
+        systemverilog: "system-verilog",
+        sv: "system-verilog",
+      },
       toc: { level: [1, 2, 3] },
       image: {
         lazyLoading: true,
